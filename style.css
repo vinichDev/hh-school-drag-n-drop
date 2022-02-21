@@ -1,0 +1,34 @@
+
+.drag-n-drop {
+    margin: 100px 100px;
+    display: flex;
+}
+
+.create-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+}
+
+.drop-field {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    border: 1px solid lightgray;
+}
+
+.free-field {
+
+}
+
+.grid-field {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
